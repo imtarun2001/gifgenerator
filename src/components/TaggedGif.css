@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+.taggedgif {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 20px;
+    border-radius: 15px;
+    background-color: rgb(33, 33, 33);
+}
+
+.agif {
+    font-size: 20px;
+    background-color: rgb(255, 239, 220);
+    color: brown;
+    padding: 3px 90px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.gif {
+    border-radius: 5px;
+}
+
+input {
+    text-align: center;
+    padding: 5px 70px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.taggedgeneratebtn {
+    cursor: pointer;
+    background-color: rgb(87, 219, 255);
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 8px;
+    padding: 3px 20px 0px 20px;
+    font-size: 16px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.randomgeneratebtn:hover {
+    background-color: rgb(108, 197, 253);
+}
